@@ -8,7 +8,7 @@ public class Telephone extends Device{
 
         @Override
     public void dial() {
-        System.out.printf("The %s %s produced in %d and can dial the numbers using %s interface.%n",
+        System.out.printf("The %s %s was produced in %d and can dial the numbers using a %s interface.%n",
                 getBrand(), getName(), getYear(), dialInterface);
     }
 

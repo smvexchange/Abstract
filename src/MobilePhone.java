@@ -8,7 +8,7 @@ public class MobilePhone extends Device implements Messaging, Photographing{
 
     @Override
     public void dial() {
-        System.out.printf("The %s %s produced in %d and can dial the numbers using %s.%n",
+        System.out.printf("The %s %s was produced in %d and can dial the numbers using a %s.%n",
                 getBrand(), getName(), getYear(), callingModule);
     }
 
@@ -21,13 +21,13 @@ public class MobilePhone extends Device implements Messaging, Photographing{
 
     @Override
     public void sendMessage() {
-        System.out.printf("The %s %s can sent messages using different applications.%n",
+        System.out.printf("The %s %s can send messages using different applications.%n",
                 getBrand(), getName());
     }
 
     @Override
     public void takePicture() {
-        System.out.printf("The %s %s can take a picture using integrated photo cam.%n",
+        System.out.printf("The %s %s can take a picture using an integrated photo cam.%n",
                 getBrand(), getName());
     }
 }

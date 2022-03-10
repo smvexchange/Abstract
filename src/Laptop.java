@@ -8,7 +8,7 @@ public class Laptop extends Device implements Messaging{
 
     @Override
     public void dial() {
-        System.out.printf("The %s %s produced in %d and can dial the numbers using %s.%n",
+        System.out.printf("The %s %s was produced in %d and can dial the numbers using %s.%n",
                 getBrand(), getName(), getYear(), application);
     }
 
@@ -20,7 +20,7 @@ public class Laptop extends Device implements Messaging{
 
     @Override
     public void sendMessage() {
-        System.out.printf("The %s %s can sent messages using %s.%n",
+        System.out.printf("The %s %s can send messages using %s.%n",
                 getBrand(), getName(), application);
     }
 }
